@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Portfolio</title>
+	<link rel="icon" type="image/gif" href="img/me.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/myScript.js"></script>
+</head>
+<body>
+	<header>
+		<nav>      
+			<div>
+		        <label id="hamburger" class="toggle">
+					<div class="hamburger-menu"></div>
+					<div class="hamburger-menu"></div>
+					<div class="hamburger-menu"></div>
+		        </label>
+	      	</div>
+      		<div>
+				<ul id="nav" class="menu">
+					<li class="active"><a href="#home" class="scroll">home</a></li>
+					<li><a href="#skills" class="scroll">skills</a></li>
+					<li><a href="#works" class="scroll">works</a></li>
+				</ul>
+			</div>
+		    <script src="js/toggle.js"></script>
+		</nav>
+	</header>
+
+	<main>
+		<div class="div1">
+			<div id="home" class="row">
+				<div class="box-me"></div>
+				<a href="doc/jonathanYaquiten.pdf" download>
+					<button>download my cv</button>
+				</a>
+			</div>
+		</div>
+
+		<div class="div2">
+			<div id="skills" class="row">
+<div class="fadeleftHide"></div>
+	<script src="js/fade.js"></script>
+				<h1>skills</h1>
+				<div class="col-lg-6">
+					<h3>Git</h3>
+					<h3>HTML5</h3>
+					<h3>CSS3</h3>
+					<h3>Bootstrap</h3>
+				</div>
+				<div class="col-lg-6">
+					<h3>JavaScript / JQuery</h3>
+					<h3>PHP</h3>
+					<h3>MySQL</h3>
+					<h3>Laravel</h3>
+				</div>
+			</div>
+		</div>
+		
+		<div class="div3">
+			<div id="works" class="row">
+<div class="fadeleftHide"></div>
+				<h1>works</h1>
+				<div class="col-lg-6 col-sm-12">
+					<div class="box">
+						<a href="https://jonathanyaquiten.github.io/design1.1/" target="_blank">
+							<img src="img/design1.png" alt="image">
+						</a>
+						<h4>Simple design using HTML5 and CSS3</h4>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-12">
+					<div class="box">
+						<a href="https://yakilicious.000webhostapp.com/" target="_blank">
+							<img src="img/design2.png" alt="image">
+						</a>
+						<h4>Simple Ecommerce Website using PHP MySQL (with template)</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			Copyright &copy; 2019 | All Rights Reserved
+		</div>
+	</footer>
+</body>
+</html>
